@@ -4,7 +4,7 @@ const categoryService = require("../services/categoryService");
 async function createCategory(req, res) {
   try {
     const category = await categoryService.create(req.body);
-    res.status(200).send({ status: "ok", category });
+    res.status(200).send({ status: "oกกk", category });
   } catch (err) {
     res.status(500).send({ status: "error", message: err.message });
   }
