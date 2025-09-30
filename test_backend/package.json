@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
