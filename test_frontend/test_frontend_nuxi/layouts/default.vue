@@ -4,8 +4,9 @@
         <nav class="nav flex-column bg-light p-3 vh-100" style="width: 200px; text-align: center;">
             <div style="padding-top: 20px; padding-bottom: 20px;">LOGO</div>
             <nuxt-link class="nav-link active" aria-current="page" to="/products">รายการสินค้า</nuxt-link>
+            <nuxt-link class="nav-link active" aria-current="page" to="/services">รายบริการ</nuxt-link>
             <nuxt-link class="nav-link active" aria-current="page" to="/category">หมวดหมู่</nuxt-link>
-            <a class="nav-link" href="#">Link 2</a>
+            <nuxt-link class="nav-link active" aria-current="page" to="/category">จองคิว</nuxt-link>
             <!-- <div class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
           aria-expanded="false">Dropdown</a>
